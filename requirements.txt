@@ -1,0 +1,8 @@
+transformers>=4.49.0
+qwen-vl-utils
+torch
+accelerate
+spaces
+gradio>=4.44.0
+duckduckgo-search
+Pillow
