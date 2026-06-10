@@ -7,6 +7,7 @@ image = (
     .pip_install(
         "transformers>=4.49.0",
         "torch",
+        "torchvision",
         "accelerate",
         "qwen-vl-utils",
         "Pillow",
