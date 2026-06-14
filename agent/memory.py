@@ -22,10 +22,11 @@ def save_session(docs: list[dict]) -> None:
 
 def find_recurring(docs: list[dict]) -> list[str]:
     memory = load_memory()
-    if not memory:
+    if len(memory) < 2:  # need at least 2 past sessions before alerting
         return []
+    past_sessions = memory[:-1]  # exclude current session
     past_senders = set()
-    for session in memory:
+    for session in past_sessions:
         for d in session.get("docs", []):
             if d.get("sender"):
                 past_senders.add(d["sender"].lower())
