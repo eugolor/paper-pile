@@ -6,7 +6,7 @@
 
 
 
-## What It Does That a Chat Can't
+## What the workflow adds beyond a single AI interaction
 
 Paper Pile Agent is a **multi-step agentic pipeline**, not a wrapper around a single prompt. Here's what it does that you cannot replicate by dragging a photo into ChatGPT:
 
