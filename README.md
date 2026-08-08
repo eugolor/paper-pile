@@ -97,7 +97,7 @@ Python          → agent pipeline orchestration
 
 ### 1. Clone and install
 ```bash
-git clone https://github.com/YOUR_USERNAME/paper-pile-agent
+git clone https://github.com/eugolor/paper-pile-agent
 cd paper-pile-agent
 python -m venv venv
 source venv/bin/activate
@@ -114,7 +114,7 @@ Copy the endpoint URL Modal prints.
 
 ### 3. Set the environment variable
 ```bash
-export MODAL_ENDPOINT="https://YOUR_USERNAME--paperpile-analyze-endpoint.modal.run"
+export MODAL_ENDPOINT="https://eugolor--paperpile-analyze-endpoint.modal.run"
 ```
 
 Or add it as a secret in your HuggingFace Space settings.
