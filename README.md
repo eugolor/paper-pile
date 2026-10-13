@@ -145,7 +145,7 @@ paper-pile-agent/
 ## Built By
 
 **Ejiro Ugolor** — CS Honours graduate, York University (Lassonde School of Engineering)  
-ML / AI Engineering · [huggingface.co/eugolor](https://huggingface.co/eugolor)
+[huggingface.co/eugolor](https://huggingface.co/eugolor)
 
 
 
