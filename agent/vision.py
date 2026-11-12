@@ -4,7 +4,6 @@ import os
 from PIL import Image
 import io
 
-# Set this after you deploy: modal deploy modal_app.py
 MODAL_ENDPOINT = os.environ.get("MODAL_ENDPOINT", "")
 
 def extract_and_classify(image_path: str) -> dict:
